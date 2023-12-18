@@ -24,7 +24,7 @@ function displaycalendar(year, month) {
         }
         calendarHTML += '</tr>';
     }
-    //console.log(calendarHTML,"calenderrrrrrrrrrr");
+    console.log(calendarHTML,"calenderrrrrrrrrrr");
 document.getElementById('calendar-body').innerHTML = calendarHTML;
 
 let monthyearname = document.getElementById('month-year');
