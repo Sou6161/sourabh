@@ -1,0 +1,35 @@
+body {
+    margin-top: 50px;
+    align-items: center;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#calendar-container{
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+th,
+td {
+    padding: 10px;
+    align-items: center;
+    border: 1px solid red;
+}
+
+th {
+    background-color: rgb(146, 63, 146)
+}
+
+
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
