@@ -2,9 +2,10 @@ body {
     margin: 50px;
     background: url(bgforcalandtimer.jpg);
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;  
+    font-family: Arial, Helvetica, sans-serif;
 }
-input{
+
+input {
     background-color: rgb(118, 134, 164);
     height: 30px;
     padding-top: 5px;
@@ -22,48 +23,51 @@ input{
     color: black;
     stroke: #e8e809;
 
-}   
-input[type="number"]{
-color: #121112;
-font-size: larger;
-font-weight: bolder;
 }
 
-::placeholder{
+input[type="number"] {
+    color: #121112;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+::placeholder {
     color: #e8e809;
     font-weight: bold;
     font-size: 20px;
 
 }
 
-#updatehour{
-    
-    top: 600px;
+#updatehour {
+
+    top: 300px;
     position: relative;
     overflow: hidden;
 }
-#updatemin{
-    top: 600px;
-    position: relative;
-}
-#updatesec{
-    top: 600px;
+
+#updatemin {
+    top: 300px;
     position: relative;
 }
 
-#pausebutton{
-    top: 600px;
+#updatesec {
+    top: 300px;
+    position: relative;
+}
+
+#pausebutton {
+    top: 310px;
     align-items: center;
     appearance: none;
     background-color: #1e9267;
     border-radius: 4px;
     border-width: 0;
-    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#101111 0 -3px 0 inset;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #101111 0 -3px 0 inset;
     box-sizing: border-box;
     color: #e8e809;
     cursor: pointer;
     display: inline-flex;
-    font-family: "JetBrains Mono",monospace;
+    font-family: "JetBrains Mono", monospace;
     height: 48px;
     justify-content: center;
     line-height: 1;
@@ -74,42 +78,42 @@ font-weight: bolder;
     position: relative;
     text-align: left;
     text-decoration: none;
-    transition: box-shadow .15s,transform .15s;
+    transition: box-shadow .15s, transform .15s;
     user-select: none;
     touch-action: manipulation;
     white-space: nowrap;
-    will-change: box-shadow,transform;
+    will-change: box-shadow, transform;
     font-size: 18px;
-  }
-  
-  #pausebutton:focus {
+}
+
+#pausebutton:focus {
     box-shadow: #090909 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #502e87 0 -3px 0 inset;
-  }
-  
-  #pausebutton:hover {
-    box-shadow:     rgb(18, 111, 151) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #0b0a0a 0 -3px 0 inset;
+}
+
+#pausebutton:hover {
+    box-shadow: rgb(18, 111, 151) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #0b0a0a 0 -3px 0 inset;
     transform: translateY(-2px);
     border-color: red;
-  }
-  
-  #pausebutton:active {
+}
+
+#pausebutton:active {
     box-shadow: #23aa11 0 3px 7px inset;
     transform: translateY(2px);
-  }
+}
 
-#resumebutton{
-    top: 600px;
+#resumebutton {
+    top: 310px;
     align-items: center;
     appearance: none;
     background-color: #1e9267;
     border-radius: 4px;
     border-width: 0;
-    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#101111 0 -3px 0 inset;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #101111 0 -3px 0 inset;
     box-sizing: border-box;
     color: #e8e809;
     cursor: pointer;
     display: inline-flex;
-    font-family: "JetBrains Mono",monospace;
+    font-family: "JetBrains Mono", monospace;
     height: 48px;
     justify-content: center;
     line-height: 1;
@@ -120,42 +124,42 @@ font-weight: bolder;
     position: relative;
     text-align: left;
     text-decoration: none;
-    transition: box-shadow .15s,transform .15s;
+    transition: box-shadow .15s, transform .15s;
     user-select: none;
     touch-action: manipulation;
     white-space: nowrap;
-    will-change: box-shadow,transform;
+    will-change: box-shadow, transform;
     font-size: 18px;
 }
 
-#reumebuttom:focus{
+#reumebuttom:focus {
     box-shadow: #090909 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #502e87 0 -3px 0 inset;
 }
 
-#resumebutton:hover{
-    box-shadow:     rgb(18, 111, 151) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #0b0a0a 0 -3px 0 inset;
+#resumebutton:hover {
+    box-shadow: rgb(18, 111, 151) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #0b0a0a 0 -3px 0 inset;
     transform: translateY(-2px);
     border-color: red;
 }
 
-#resumebutton:active{
+#resumebutton:active {
     box-shadow: #23aa11 0 3px 7px inset;
     transform: translateY(2px);
 }
 
-#startbutton{
-    top: 600px;
+#startbutton {
+    top: 310px;
     align-items: center;
     appearance: none;
     background-color: #1e9267;
     border-radius: 4px;
     border-width: 0;
-    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#101111 0 -3px 0 inset;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #101111 0 -3px 0 inset;
     box-sizing: border-box;
     color: #e8e809;
     cursor: pointer;
     display: inline-flex;
-    font-family: "JetBrains Mono",monospace;
+    font-family: "JetBrains Mono", monospace;
     height: 48px;
     justify-content: center;
     line-height: 1;
@@ -166,42 +170,42 @@ font-weight: bolder;
     position: relative;
     text-align: left;
     text-decoration: none;
-    transition: box-shadow .15s,transform .15s;
+    transition: box-shadow .15s, transform .15s;
     user-select: none;
     touch-action: manipulation;
     white-space: nowrap;
-    will-change: box-shadow,transform;
+    will-change: box-shadow, transform;
     font-size: 18px;
 }
 
-#startbutton:focus{
+#startbutton:focus {
     box-shadow: #090909 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #502e87 0 -3px 0 inset;
 }
 
-#startbutton:hover{
-    box-shadow:     rgb(18, 111, 151) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #0b0a0a 0 -3px 0 inset;
+#startbutton:hover {
+    box-shadow: rgb(18, 111, 151) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #0b0a0a 0 -3px 0 inset;
     transform: translateY(-2px);
     border-color: red;
 }
 
-#startbutton:active{
+#startbutton:active {
     box-shadow: #23aa11 0 3px 7px inset;
     transform: translateY(2px);
 }
 
-#resetbutton{
-    top: 600px;
+#resetbutton {
+    top: 310px;
     align-items: center;
     appearance: none;
     background-color: #1e9267;
     border-radius: 4px;
     border-width: 0;
-    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#101111 0 -3px 0 inset;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #101111 0 -3px 0 inset;
     box-sizing: border-box;
     color: #e8e809;
     cursor: pointer;
     display: inline-flex;
-    font-family: "JetBrains Mono",monospace;
+    font-family: "JetBrains Mono", monospace;
     height: 48px;
     justify-content: center;
     line-height: 1;
@@ -212,37 +216,53 @@ font-weight: bolder;
     position: relative;
     text-align: left;
     text-decoration: none;
-    transition: box-shadow .15s,transform .15s;
+    transition: box-shadow .15s, transform .15s;
     user-select: none;
     touch-action: manipulation;
     white-space: nowrap;
-    will-change: box-shadow,transform;
+    will-change: box-shadow, transform;
     font-size: 18px;
 }
 
-#resetbutton:focus{
+#resetbutton:focus {
     box-shadow: #090909 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #502e87 0 -3px 0 inset;
 }
 
-#resetbutton:hover{
-    box-shadow:     rgb(18, 111, 151) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #0b0a0a 0 -3px 0 inset;
+#resetbutton:hover {
+    box-shadow: rgb(18, 111, 151) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #0b0a0a 0 -3px 0 inset;
     transform: translateY(-2px);
     border-color: red;
 }
 
-#resetbutton:active{
+#resetbutton:active {
     box-shadow: #23aa11 0 3px 7px inset;
     transform: translateY(2px);
 }
 
-#calendar-container{
+#calendar-container {
     margin: 20px;
+    position: relative;
+    top: 30px;
+}
+
+h1 {
+    position: relative;
+    top: 50px;
+    color: #dcc307;
+    text-decoration-line: underline;
+}
+
+h1:hover {
+    color: chartreuse;
 }
 
 table {
     border-collapse: collapse;
     width: 80%;
     margin: 0 auto;
+    position: relative;
+    top: 50px;
+
 }
 
 th,
@@ -262,6 +282,64 @@ button {
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
+    top: 20px;
+    align-items: center;
+    appearance: none;
+    background-color: #1e9267;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #101111 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #e8e809;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 45px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+#prevmonth:focus {
+    box-shadow: #090909 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #502e87 0 -3px 0 inset;
+}
+
+#prevmonth:hover {
+    box-shadow: rgb(18, 111, 151) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #0b0a0a 0 -3px 0 inset;
+    transform: translateY(-2px);
+    border-color: red;
+}
+
+#prevmonth:active {
+    box-shadow: #23aa11 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+#nextmonth:focus {
+    box-shadow: #090909 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #502e87 0 -3px 0 inset;
+}
+
+#nextmonth:hover {
+    box-shadow: rgb(18, 111, 151) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #0b0a0a 0 -3px 0 inset;
+    transform: translateY(-2px);
+    border-color: red;
+}
+
+#nextmonth:active {
+    box-shadow: #23aa11 0 3px 7px inset;
+    transform: translateY(2px);
 }
 
 
@@ -305,8 +383,8 @@ button {
 
 
 
-
-#timer, button {
+#timer,
+button {
     bottom: 20px;
     font-size: 1em;
     margin: 5px;

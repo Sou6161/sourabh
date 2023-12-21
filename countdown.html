@@ -10,8 +10,8 @@
   <body
     onload="displaycalendar(new Date().getFullYear(),new Date().getMonth())">
     <div id="calendra-container">
-      <button onclick="prevMonth()">Previous</button>
-      <button onclick="nextMonth()">Next</button>
+      <button onclick="prevMonth()" id="prevmonth">Previous</button>
+      <button onclick="nextMonth()" id="nextmonth">Next</button>
       <h1 id="month-year"></h1>
       <table id="calendar">
         <thead>
