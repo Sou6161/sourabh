@@ -12,7 +12,7 @@ function displaycalendar(year, month) {
     
         for (let j = 1; j <= 7; j++) {
             console.log(firstday,"firstdayyyy");
-            console.log(day,"dayyyy");
+            //console.log(day,"dayyyy");
             console.log(daysinmonth,"daysinmonth");
             if ((i == 1 && j <= firstday) || (day > daysinmonth)) {
                 calendarHTML += '<td></td>';
