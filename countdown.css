@@ -1,6 +1,7 @@
 body {
     margin: 50px;
-    background: url(bgforcalandtimer.jpg);
+   /* background: url(bgforcalandtimer.jpg);*/
+   background-color: cadetblue;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -31,6 +32,10 @@ input[type="number"] {
     font-weight: bolder;
 }
 
+input:hover{
+    scroll-behavior: none;
+}
+
 ::placeholder {
     color: #e8e809;
     font-weight: bold;
@@ -40,23 +45,23 @@ input[type="number"] {
 
 #updatehour {
 
-    top: 300px;
+    top: 240px;
     position: relative;
     overflow: hidden;
 }
 
 #updatemin {
-    top: 300px;
+    top: 240px;
     position: relative;
 }
 
 #updatesec {
-    top: 300px;
+    top: 240px;
     position: relative;
 }
 
 #pausebutton {
-    top: 310px;
+    top: 240px;
     align-items: center;
     appearance: none;
     background-color: #1e9267;
@@ -102,7 +107,7 @@ input[type="number"] {
 }
 
 #resumebutton {
-    top: 310px;
+    top: 240px;
     align-items: center;
     appearance: none;
     background-color: #1e9267;
@@ -148,7 +153,7 @@ input[type="number"] {
 }
 
 #startbutton {
-    top: 310px;
+    top: 240px;
     align-items: center;
     appearance: none;
     background-color: #1e9267;
@@ -194,7 +199,7 @@ input[type="number"] {
 }
 
 #resetbutton {
-    top: 310px;
+    top: 240px;
     align-items: center;
     appearance: none;
     background-color: #1e9267;
@@ -262,14 +267,35 @@ table {
     margin: 0 auto;
     position: relative;
     top: 50px;
+    
 
 }
 
 th,
 td {
     padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
     align-items: center;
-    border: 1px solid red;
+    border: 1px solid rgb(98, 131, 55);
+    border-width: 5px;
+}
+
+th{
+    color: #edac09;
+}
+
+td{
+    color: rgb(7, 245, 82);
+}
+
+th:hover{
+    color: #5c07dc;
+    text-decoration-line: underline;
+}
+td:hover{
+    color: #921e24;
+    background-color: rgb(137, 177, 114);
 }
 
 th {

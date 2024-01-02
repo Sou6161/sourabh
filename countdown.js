@@ -1,4 +1,5 @@
 //countdown code starts from here
+
 let timer;
 let totalsec;
 let tension;
@@ -65,6 +66,7 @@ function resumecountdown() {
 }
 
 //calender code starts from here
+
 let currentyear, currentmonth;
 function displaycalendar(year, month) {
   let daysinmonth = new Date(year, month + 1, 0).getDate();
