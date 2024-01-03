@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CountDown Timer</title>
-    <link rel="stylesheet" href="countdown.css" />
-    <script src="countdown.js"></script>
-  </head>
-  <body
-    onload="displaycalendar(new Date().getFullYear(),new Date().getMonth())">
-    <div id="calendra-container">
-      <button onclick="prevMonth()" id="prevmonth">Previous</button>
-      <button onclick="nextMonth()" id="nextmonth">Next</button>
-      <h1 id="month-year"></h1>
-      <table id="calendar">
-        <thead>
-          <tr>
-            <th>Sunday</th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-            <th>Saturday</th>
-          </tr>
-        </thead>
-        <tbody id="calendar-body"></tbody>
-      </table>
-    </div>
-    <input type="number" id="updatehour" placeholder="00" />:
-    <input type="number" id="updatemin" placeholder="00" /> :
-    <input type="number" id="updatesec" placeholder="00" />
-    <div id="area">
-      <button onclick="startcountdown()" id="startbutton">start</button>
-      <button onclick="pausecountdown()" id="pausebutton" disabled>
-        Pause
-      </button>
-      <button onclick="resumecountdown()" id="resumebutton" disabled>
-        Resume
-      </button>
-      <!-- <button onclick="resetbutton()" id="resetbutton">reset</button>-->
-    </div>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CountDown Timer</title>
+  <link rel="stylesheet" href="countdown.css" />
+  <script src="countdown.js"></script>
+</head>
+
+<body onload="displaycalendar(new Date().getFullYear(),new Date().getMonth())">
+  <div id="calendra-container">
+    <h1 id="heading1">CALENDAR</h1>
+    <button onclick="prevMonth()" id="prevmonth">Previous</button>
+    <button onclick="nextMonth()" id="nextmonth">Next</button>
+    <h1 id="month-year"></h1>
+    <table id="calendar">
+      <thead>
+        <tr>
+          <th>Sunday</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+      </thead>
+      <tbody id="calendar-body"></tbody>
+    </table>
+  </div>
+
+  <!--Countdown Timer Code Starts From Here -->
+  <h1 id="heading2" >REVERSE COUNTDOWN TIMER</h1>
+  <input type="number" id="updatehour" placeholder="00" />
+  <input type="number" id="updatemin" placeholder="00" /> 
+  <input type="number" id="updatesec" placeholder="00" />
+  <div id="area">
+    <button onclick="startcountdown()" id="startbutton">start</button>
+    <button onclick="pausecountdown()" id="pausebutton" disabled>
+      Pause
+    </button>
+    <button onclick="resumecountdown()" id="resumebutton" disabled>
+      Resume
+    </button>
+    <!-- <button onclick="resetbutton()" id="resetbutton">reset</button>-->
+  </div>
+</body>
+
 </html>

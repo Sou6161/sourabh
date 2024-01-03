@@ -1,10 +1,23 @@
 body {
     margin: 50px;
-   /* background: url(bgforcalandtimer.jpg);*/
-   background-color: cadetblue;
+    /* background: url(bgforcalandtimer.jpg);*/
+    background-color: cadetblue;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Countdown Timer Code Starts From Here*/
+
+#heading2 {
+    top: 80px;
+    position: relative; 
+    color: #921e24;
+}
+#heading2:hover{
+    color: midnightblue;
+    text-decoration-line: underline;
+}
+
 
 input {
     background-color: rgb(118, 134, 164);
@@ -32,7 +45,7 @@ input[type="number"] {
     font-weight: bolder;
 }
 
-input:hover{
+input:hover {
     scroll-behavior: none;
 }
 
@@ -45,23 +58,23 @@ input:hover{
 
 #updatehour {
 
-    top: 240px;
+    top: 120px;
     position: relative;
     overflow: hidden;
 }
 
 #updatemin {
-    top: 240px;
+    top: 120px;
     position: relative;
 }
 
 #updatesec {
-    top: 240px;
+    top: 120px;
     position: relative;
 }
 
 #pausebutton {
-    top: 240px;
+    top: 130px;
     align-items: center;
     appearance: none;
     background-color: #1e9267;
@@ -107,7 +120,7 @@ input:hover{
 }
 
 #resumebutton {
-    top: 240px;
+    top: 130px;
     align-items: center;
     appearance: none;
     background-color: #1e9267;
@@ -153,7 +166,7 @@ input:hover{
 }
 
 #startbutton {
-    top: 240px;
+    top: 130px;
     align-items: center;
     appearance: none;
     background-color: #1e9267;
@@ -199,7 +212,7 @@ input:hover{
 }
 
 #resetbutton {
-    top: 240px;
+    top: 130px;
     align-items: center;
     appearance: none;
     background-color: #1e9267;
@@ -244,21 +257,32 @@ input:hover{
     transform: translateY(2px);
 }
 
+/* Calendar Code Starts From HERE*/
+
 #calendar-container {
     margin: 20px;
     position: relative;
     top: 30px;
 }
 
-h1 {
+#month-year {
     position: relative;
-    top: 50px;
+    top: 0%;
     color: #dcc307;
     text-decoration-line: underline;
 }
+#heading1:hover{
+    color: rgb(199, 9, 9);
+    text-decoration-line: underline;
+}
 
-h1:hover {
+#month-year:hover {
     color: chartreuse;
+}
+
+#heading1{
+    bottom: 40px;
+    position: relative;
 }
 
 table {
@@ -267,7 +291,7 @@ table {
     margin: 0 auto;
     position: relative;
     top: 50px;
-    
+
 
 }
 
@@ -281,19 +305,20 @@ td {
     border-width: 5px;
 }
 
-th{
+th {
     color: #edac09;
 }
 
-td{
+td {
     color: rgb(7, 245, 82);
 }
 
-th:hover{
+th:hover {
     color: #5c07dc;
     text-decoration-line: underline;
 }
-td:hover{
+
+td:hover {
     color: #921e24;
     background-color: rgb(137, 177, 114);
 }
@@ -308,7 +333,7 @@ button {
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
-    top: 20px;
+    bottom: 50px;
     align-items: center;
     appearance: none;
     background-color: #1e9267;
