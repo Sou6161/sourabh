@@ -274,6 +274,7 @@ input:hover {
 #heading1:hover{
     color: rgb(199, 9, 9);
     text-decoration-line: underline;
+    
 }
 
 #month-year:hover {
@@ -281,6 +282,7 @@ input:hover {
 }
 
 #heading1{
+    display: ;
     bottom: 40px;
     position: relative;
 }
